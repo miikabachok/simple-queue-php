@@ -1,0 +1,24 @@
+{
+    "name": "miikabachok/simple-queue",
+    "description": "Simple php queue.",
+    "type": "library",
+    "keywords": ["queue", "worker"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MiiKabachok\\SimpleQueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nazarii Florchuk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "ext-redis": "*",
+        "psr/log":  "^3.0"
+    }
+}
